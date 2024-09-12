@@ -10,11 +10,11 @@
             <div class="mt-3">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-                    <input type="email" value="<?= $nama ?>" class="form-control" id="exampleFormControlInput1" placeholder="Please enter your full name">
+                    <input type="text" value="<?= $name ?>" class="form-control" id="exampleFormControlInput1" placeholder="Please enter your full name">
                   </div>
                   <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Username</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Please enter your username"value="<?= $username ?>">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Please enter your username"value="<?= $username ?>">
                   </div>
                   <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Email address</label>
@@ -22,7 +22,7 @@
                   </div>
                   <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Password</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Please enter your password"value="<?= $password ?>">
+                    <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Please enter your password"value="<?= $password ?>">
                   </div>
                   <button type="button" class="btn-primary btn">Submit</button>
             </div>
